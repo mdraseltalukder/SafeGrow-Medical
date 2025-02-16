@@ -1,7 +1,12 @@
 
+import ContactBanner from '@/components/contact/ContactBanner';
+import ContactPage from '@/components/contact/ContactPage';
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <ContactBanner />
+      <ContactPage />
+    </div>
   )
 }
-

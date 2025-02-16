@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Root from './components/Root';
+import NotFound from './Pages/Page404';
 
 const router =createBrowserRouter([
   {
@@ -21,7 +22,12 @@ const router =createBrowserRouter([
       {
         path:"/about",
         element:<About/>
-      }
+      },
+      {
+        path:"/404",
+        element:<NotFound/>
+      },
+     
     ]
   }
 ])

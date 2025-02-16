@@ -92,7 +92,7 @@ export default function NavbarBasic() {
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300  text-gray-900 hover:text-[#43d5cb] focus:text-[#43d5cb]
                   active:text-[#43d5cb] focus:outline-none focus-visible:outline-none lg:px-8"
-                  to="/doctor"
+                  to="/404"
                 >
                   <span>Doctor</span>
                 </NavLink>
@@ -103,7 +103,7 @@ export default function NavbarBasic() {
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300  text-gray-900 hover:text-[#43d5cb] focus:text-[#43d5cb]
                   active:text-[#43d5cb] focus:outline-none focus-visible:outline-none lg:px-8"
-                  to="/elements"
+                  to="/404"
                 >
                   <span>Elements</span>
                 </NavLink>
